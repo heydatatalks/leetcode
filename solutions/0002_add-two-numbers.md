@@ -1,5 +1,3 @@
-![题目](https://upload-images.jianshu.io/upload_images/16630052-1a2bc613e4f42428.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
 # 面试便当`python`
 解1：一种面试过程比较不容易写头晕的写法
 #### Python3
