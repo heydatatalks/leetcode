@@ -1,7 +1,7 @@
 # 面试便当`python`
 #### Python3
 解1：排序+双指针
-```Python
+```python
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         aux = [(nums[i], i) for i in range(len(nums))]
@@ -20,7 +20,7 @@ class Solution:
 > - 空间复杂度：O(n)，因为申请了和nums等长的辅助数组
 
 解2：哈希表O(1)查找
-~~~
+~~~python
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         exist = {}
@@ -35,7 +35,7 @@ class Solution:
 ---
 # 其他语言版本`Java/Golang/C++`
 #### Java
-~~~
+```java
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         HashMap<Integer, Integer> exist = new HashMap();
@@ -48,10 +48,10 @@ class Solution {
         return null;
     }
 }
-~~~
+```
 
 #### Golang
-~~~
+```go
 func twoSum(nums []int, target int) []int {
     exist := make(map[int]int)
     for i, v := range nums {
@@ -62,10 +62,10 @@ func twoSum(nums []int, target int) []int {
     }
     return nil
 }
-~~~
+```
 
 #### C++
-~~~
+~~~cpp
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
